@@ -1,0 +1,114 @@
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 85px;
+    height:80px;
+    background-color: #F1cf54;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+.title{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    background-color: #009B4D; 
+}
+.addItem{
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 49px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    background-color: #F1cf54;
+}
+#additem{
+    padding: 10px;
+    margin-bottom: 13px;
+    
+}
+.plus{
+    border: 2px solid black;
+    border-radius: 26%;
+    padding: 11px;
+}
+input{
+    width: 470px;
+    float: left;
+}
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon input[type="text"] {
+    padding-right: 30px; /* Adjust the padding to make space for the icon */
+}
+
+.inputWithIcon label {
+    position: absolute;
+    top: 35%; /* Adjust vertical positioning as needed */
+    left:  484px; /* Adjust horizontal positioning as needed */
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.showItem{
+    display: flex;
+    flex-direction: column;
+    background-color: #009B4D;
+    width: 650px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+}
+.delete{
+    height: 28px;
+    font-size: 15px;
+    margin-top: 17px;
+    margin-left: 20px;
+    border-radius: 7px;
+    background-color:#009B4D ;
+    color: #FAF5E9;
+    border: none;
+}
+.description{
+    margin-left: 40px;
+}
+
+.eachActivity{
+    display: flex;
+    justify-content: center;
+    word-wrap: break-word;
+    background-color: #009B4D;
+    
+}
+h3{
+    margin-right: auto;
+}
+.todos{
+    display: flex;
+    flex-direction: column;
+    background-color: #F1cf54;
+}
+
